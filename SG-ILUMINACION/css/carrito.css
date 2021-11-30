@@ -1,0 +1,86 @@
+        /*h1{
+            font-size: 35px;
+            font-family:sans-serif;
+            font-style: oblique;
+            text-align: center;
+            color: black;
+        }*/
+        table{
+            table-layout:fixed;
+            width: 100%;
+            border-collapse: collapse;
+            border: 3px solid rgb(75, 70, 75);
+            font-size: 15px;
+            font-family: sans-serif;
+            font-style: normal;
+            color:tomato;
+        }
+        button{
+            background-color:white;
+            font-size: 12px;
+            border-radius: 12px;
+            border-radius: 2px solid blue;
+        }
+        label{
+            width: 72px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        #subtotal{
+            font-size: 25px;
+            font-family: monospace;
+            font-style: italic;
+            text-align:left;
+            color: black;
+        }
+        #title{
+            border-radius: 2px;
+            border-color: lightsalmon;
+        }
+        #producto{
+            background-color:lightgray;
+            width: 80%;
+            margin: 20px auto;
+            padding: 15px;
+        }
+        @media (min-width: 760px) {
+           #producto{
+               width: 40%;
+           }
+        }
+        #Descripcion{
+            text-align:left;
+            font-size: 12px;
+            font-family: Arial;
+        }
+        #Precio{
+            text-align: left;
+            font-size: 12px;
+            font-family: Arial;
+            font-weight:bolder;
+        }
+        #Disp{
+            text-align: left;
+            font-size: 11px;
+            font-family: Arial;
+            color:green;
+        }
+        #color{
+            text-align:inherit;
+            font-size: 11px;
+            font-family: Arial;
+            font-weight: bolder;
+        }
+        .contenedor-img{
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        .img{
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            max-width: 150px;
+            float: left;
+            margin-right: 15px;
+        }
+        

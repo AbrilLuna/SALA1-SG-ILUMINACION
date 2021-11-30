@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <title> Formulario de Acceso </title>    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preload" href="../css/normalize.css" as="style"> 
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="preload" href="../css/login.css" as="style">
+        <link href="../css/login.css" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+        <header class="contenedor">
+            <img class="sesion-logo" src="../img/logo.png" alt="Logotipo">
+        </header>
+        <div class="contenedor-login">
+            <div id="central">
+                <div id="login">
+                    <div class="titulo">
+                        Bienvenido
+                    </div>
+                    <form id="loginform" action="../clientes/administrar_cliente.php" method="post">
+                        <input class="input" type="text" name="usuario" placeholder="Correo Electronico" required>
+                        
+                        <input class="input" type="password" placeholder="Contraseña" name="password" required>
+                        
+                        <input type='hidden' name='ingresar' value='ingresar'>
+
+                        <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+                    
+                    </form>
+                    <div class="pie-form">
+                        <a href="#">¿Perdiste tu contraseña?</a>
+                        <a href="Registro.html">¿No tienes Cuenta? Registrate</a>
+                    </div>
+                </div>
+                <div class="inferior">
+                    <a href="../index.php">Volver</a>
+                </div>
+            </div>
+        </div>
+            
+    </body>
+</html>
